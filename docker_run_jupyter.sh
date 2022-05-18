@@ -1,0 +1,1 @@
+docker run -it --gpus all --rm -v /home/eko_rudiawan/Source-Code/BarelangNet-RoboCup:/home/Detectron2-RoboCup/BarelangNet-RoboCup -p 5000:8888 ekorudiawan/detectron2 jupyter notebook --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token='' --NotebookApp.password=''

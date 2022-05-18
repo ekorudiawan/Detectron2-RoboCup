@@ -1,0 +1,1 @@
+docker run -it --gpus all --rm -v /home/eko_rudiawan/Source-Code/BarelangNet-RoboCup:/home/Detectron2-RoboCup/BarelangNet-RoboCup ekorudiawan/detectron2 bash

@@ -1,0 +1,5 @@
+_BASE_: "../../detectron2/configs/Base-RetinaNet.yaml"
+MODEL:
+  WEIGHTS: "https://download.pytorch.org/models/resnet18-5c106cde.pth"
+  RESNETS:
+    DEPTH: 18
